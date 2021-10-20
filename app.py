@@ -39,11 +39,12 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     r = '我聽不懂，說人話可以嗎?'
+    
     if msg in ['hi', 'Hi']:
         r = 'hi，在幹嘛?'
-    elif msg == '我要PS5'
+    elif msg == '我要PS5':
         r = '我也想要，下次一起搶'
-    elif msg =='我想定位'
+    elif msg =='我想定位':
         r = '好喔'
     line_bot_api.reply_message(
         event.reply_token,
