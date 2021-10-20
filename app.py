@@ -57,7 +57,7 @@ def handle_message(event):
         r = '我也想要，下次一起搶'
     elif msg == '我想定位':
         r = '好喔'
-    elif msg == '你是誰'
+    elif msg == '你是誰':
         r = '我是活死人'    
     line_bot_api.reply_message(
         event.reply_token,
