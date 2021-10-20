@@ -39,7 +39,8 @@ def callback():
 def handle_message(event):
     msg = event.message.text
     r = '我聽不懂，說人話可以嗎?'
-    if msg = 'hi':
+
+    if msg in ['hi', 'Hi']:
         r = 'hi，在幹嘛?'
     elif msg = '我要PS5'
         r = '我也想要，下次一起搶'
